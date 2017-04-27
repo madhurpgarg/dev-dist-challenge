@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <!--
+    This is the library that provides websocket streaming pub/sub
+    The dev serverver is serving the html and javascript, but it also provides updating fx data on /fx/prices.
+     -->
+    <script src="stomp.js"></script>
+    <script src="sparkline.js"></script>
+</head>
+
+<body>
+    
+    <!-- This is a description of what you should do for this task.  You can remove it for your answer -->
+    <section class="content">
+        <a href="instructions.html"><h2>Instructions can be found here</h2></a>
+        <a href="docs.html"><h2>Info about the code can be found here</h2></a>
+        <section id="stock-data">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Stock Name
+                        </th>
+                        <th>
+                            Best Bid
+                        </th>
+                        <th>
+                            Best Ask
+                        </th>
+                        <th>
+                            Last Change Bid
+                        </th>
+                        <th>
+                            Last Change Ask
+                        </th>
+                        <th>
+                            Spark Line
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+    </section>
+    <!-- Code you write in index.js and anything it depends on will be bundled into bundle.js and
+     is included here -->
+    <script src="bundle.js"></script>
+
+    
+</body>
+
+</html>
