@@ -1,6 +1,6 @@
 "use strict";
 
-var StockModel = require('../site/StockModel');
+const StockModel = require('../site/stock-table/model/StockModel.js')
 
 const message = {
 	body: JSON.stringify({

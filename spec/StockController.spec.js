@@ -1,7 +1,7 @@
 "use strict";
 
-const StockController = require('../site/StockController');
-const Event = require('../site/Event');
+const Event = require('../site/common/Event.js')
+const StockController = require('../site/stock-table/controller/StockController.js')
 
 
 function Model() {
